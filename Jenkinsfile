@@ -5,8 +5,8 @@ pipeline {
             jdk 'localJDK'
         }
     parameters {
-         string(name: 'tomcat_dev', defaultValue: 'C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps', description: 'Staging Server')
-         string(name: 'tomcat_prod', defaultValue: 'C:\Program Files\Apache Software Foundation\Tomcat 9.0 prod\webapps', description: 'Production Server')
+         string(name: 'tomcat_dev', defaultValue: 'C:/Program Files/Apache Software Foundation/Tomcat 9.0/webapps', description: 'Staging Server')
+         string(name: 'tomcat_prod', defaultValue: 'C:/Program Files/Apache Software Foundation/Tomcat 9.0 prod/webapps', description: 'Production Server')
     }
 
     triggers {
